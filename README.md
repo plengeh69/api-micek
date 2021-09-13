@@ -73,6 +73,34 @@ arjn.game.tebakgambar()
 
 </details>
 
+## Nulis Api
+
+```js
+//Example!
+const arjn = require('@arjn/api-micek')
+const fs = require('fs')
+
+arjn.nulis.bukukiri('My name is Arjn')
+.then(res => {
+    const data = Buffer.from(res)
+    fs.writeFileSync('./nulis.jpg', data)
+})
+.catch(err => console.log(err))
+```
+
+<details>
+  <summary><b>Lists of module name (type = sosmed)</b> (click to show)</summary>
+
+| module name | params | thing | response | description |
+| :--- | :---------- | :--- | :--- | :--- |
+| bukukiri | text | your text | buffer | nulis buku kiri |
+| bukukanan | text | your text | buffer | nulis buku kanan |
+| foliokiri | text | your text | buffer | nulis folio kiri |
+| foliokanan | text | your text | buffer | nulis folio kanan |
+
+</details>
+
+
   # Thanks To
 * [`ArugaZ`](https://github.com/ArugaZ)
 * [`Hexagonz`](https://github.com/Hexagonz)
