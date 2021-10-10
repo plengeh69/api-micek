@@ -1,0 +1,31 @@
+{
+  "name": "@arjn/api-micek",
+  "version": "0.0.9",
+  "description": "Access api-micek Rest Api",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plengeh69/api-micek.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rest-api"
+  ],
+  "author": "Arjn",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/plengeh69/api-micek/issues"
+  },
+  "homepage": "https://github.com/plengeh69/api-micek#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bent": "^7.3.12",
+    "jsdom": "^18.0.0",
+    "node-fetch": "^3.0.0",
+    "request": "^2.88.2",
+    "yt-search": "^2.10.1"
+  }
+}
